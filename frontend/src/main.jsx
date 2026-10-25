@@ -3,7 +3,7 @@ import {createRoot} from 'react-dom/client';
 import {Search, Play, Info, Star, ChevronRight, Sparkles} from 'lucide-react';
 import './style.css';
 
-const API='http://127.0.0.1:8000';
+const API='';
 const fallback='https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&q=80';
 
 function Poster({m, wide=false}){
